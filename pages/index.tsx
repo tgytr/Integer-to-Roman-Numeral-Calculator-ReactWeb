@@ -29,7 +29,7 @@ export default function Home() {
               <button onClick={handleSubmit(handleConvertPressed)} style={{marginLeft:50, marginRight: 50}}>
                   Convert
               </button>
-              <text>{romanNumeral}</text>
+              <label>{romanNumeral}</label>
           </div>
       </form>
     </div>
